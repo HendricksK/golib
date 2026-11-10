@@ -5,6 +5,8 @@ import (
     "html/template"
 )
 
+var tmplFS embed.FS
+
 type Template struct {
     templates *template.Template
 }
